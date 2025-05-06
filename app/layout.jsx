@@ -1,0 +1,15 @@
+import React from 'react'
+import "../styles/global.css";
+
+export default function RootLayout({ children }) {
+    return (
+      <html lang="en">
+        <body>
+          <main>
+          {children}
+          </main>
+          
+        </body>
+      </html>
+    );
+  }
