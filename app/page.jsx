@@ -33,7 +33,7 @@ const page = () => {
             Korir Moses
           </h1>
           <p className="text-gray-600 border-t border-gray-400 pt-2 inline-block">
-            Tech Enthusiast
+            Tech Enthusiast | Software Developer
           </p>
         </div>
       </div>
