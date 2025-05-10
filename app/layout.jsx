@@ -1,3 +1,4 @@
+import Nav from "@/components/Nav";
 import "../styles/globals.css";
 
 export const metadata = {
@@ -13,7 +14,7 @@ export const metadata = {
           <main>
           {children}
           </main>
-          
+          <Nav />
         </body>
       </html>
     );
