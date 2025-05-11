@@ -14,7 +14,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("Menu toggled!");
+    
     setIsOpen(!isOpen);
   };
   const navVariants = {
