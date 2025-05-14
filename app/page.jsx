@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import AboutSection from "./about/page";
 
 const Homepage = () => {
   return (
@@ -49,6 +50,7 @@ const Homepage = () => {
           </p>
         </div>
       </div>
+      
     </Banner>
   );
 };
