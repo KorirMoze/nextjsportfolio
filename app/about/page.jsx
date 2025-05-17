@@ -62,7 +62,7 @@ const AboutSection = () => {
             href="/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-black text-white p-5  rounded-3xl hover:bg-gray-600 transition duration-300"
+            className="bg-black text-white p-5  rounded-3xl hover:bg-gray-400 transition duration-300"
           >
             My Resume
           </a>
