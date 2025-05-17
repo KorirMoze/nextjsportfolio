@@ -11,16 +11,14 @@ const AboutSection = () => {
         <h1 className="text-3xl sm:text-4xl font-bold mb-3 pt-5 text-black">
           About Me
         </h1>
-        <p className="text-gray-400">Introduction</p>
+        <p className="text-gray-700">Introduction</p>
       </div>
 
       {/* Content Section */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12 mt-10">
         {/* Left Side (Image) */}
         <div className="w-full md:w-1/2 space-y-8">
-          {/* Add your image here */}
-          {/* Example: */}
-          {/* <img src="/me.jpg" alt="Profile" className="rounded-2xl" /> */}
+          {/* Image */}
         </div>
 
         {/* Right Side */}
@@ -44,7 +42,7 @@ const AboutSection = () => {
           <div className="text-gray-600 leading-relaxed">
             I am an experienced Software Developer with a dual expertise in
             backend <strong> (.NET Framework, C#, Django)</strong> and frontend 
-            <strong>(Vue.js)</strong>
+            <strong> (Vue.js) </strong>
             development, specializing in fintech solutions. I architect and
             build secure, scalable payment processing systems and banking
             applications with a focus on data integrity, regulatory compliance,
@@ -59,7 +57,18 @@ const AboutSection = () => {
             operational efficiency and provides seamless customer experiences in
             the digital banking ecosystem.
           </div>
+           <div className="px-10  py-10">
+            <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-white p-5  rounded-3xl hover:bg-gray-600 transition duration-300"
+          >
+            My Resume
+          </a>
+           </div>
         </div>
+       
       </div>
     </Banner>
   );
